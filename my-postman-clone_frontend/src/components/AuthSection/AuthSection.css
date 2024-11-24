@@ -1,0 +1,169 @@
+
+.auth-container {
+    width: 100%;
+   
+    background-color: #1c1c1c;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .auth-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .auth-type-select,
+  .auth-data-location {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-type-select label,
+  .auth-data-location label,
+  .input-group label {
+    font-size: 0.75rem;
+    color: #a0a0a0;
+    margin-bottom: 0.25rem;
+  }
+  
+  .postman-select,
+  .postman-text-input,
+  .postman-password-input,
+  .postman-textarea {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #2c2c2c;
+    border: 1px solid #4a4a4a;
+    color: white;
+    font-size: 0.875rem;
+  }
+  
+  .auth-info {
+    font-size: 0.75rem;
+    color: #a0a0a0;
+    text-align: right;
+  }
+  
+  .auth-link {
+    color: #a0a0a0;
+    text-decoration: underline;
+  }
+  
+  .auth-content {
+    margin-top: 1rem;
+  }
+  
+  .auth-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-icon {
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-left: 0.25rem;
+  }
+  
+  .toggle-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .toggle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .toggle input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  .info-text {
+    font-size: 0.75rem;
+    color: #a0a0a0;
+  }
+  
+  .new-token-config {
+    margin-top: 1rem;
+  }
+  
+  .new-token-config h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  .link-button {
+    background: none;
+    border: none;
+    color: #a0a0a0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    font-size: 0.875rem;
+  }
+  
+  .link-button .icon {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.25rem;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .secondary-button,
+  .primary-button,
+  .configure-token-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+  }
+  
+  .secondary-button {
+    background-color: #2c2c2c;
+    color: white;
+    border: 1px solid #4a4a4a;
+  }
+  
+  .primary-button {
+    background-color: #f97316;
+    color: white;
+    border: none;
+  }
+  
+  .primary-button:hover {
+    background-color: #ea580c;
+  }
+  
+  .configure-token-button {
+    width: 100%;
+    background-color: #2c2c2c;
+    color: white;
+    border: 1px solid #4a4a4a;
+  }
+  
+  .configure-token-button:hover {
+    background-color: #3c3c3c;
+  }

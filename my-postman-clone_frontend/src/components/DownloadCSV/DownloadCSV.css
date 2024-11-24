@@ -1,0 +1,42 @@
+/* 
+.download-csv.section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .field-selection.section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    background-color: #3a3a3a;
+  }
+  
+  .field-labels{
+    margin: 0.8rem !important;
+  } */
+
+  .download-csv {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .field-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .download-button {
+    margin-top: 20px;
+  }
+  
+  .no-items-message {
+    color: #666;
+    font-style: italic;
+  }

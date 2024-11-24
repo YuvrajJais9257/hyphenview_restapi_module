@@ -1,0 +1,40 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .request-info {
+    display: flex;
+    align-items: center;
+  }
+
+  .method {
+    color: #4caf50;
+    margin-right: 10px;
+  }
+
+  .request-name {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .chevron-down {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  
+  .actions {
+    display: flex;
+  }
+
+  .action-button {
+    background-color: transparent;
+    border: none;
+    color: #a0a0a0;
+    margin-left: 10px;
+    cursor: pointer;
+  }

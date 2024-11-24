@@ -1,0 +1,44 @@
+.params-table,
+.headers-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.params-table th,
+.headers-table th {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.params-table td,
+.headers-table td {
+  padding: 10px;
+}
+
+.params-table input,
+.headers-table input {
+  background-color: #3a3a3a;
+  color: #ffffff;
+  border: none;
+  padding: 5px;
+  width: 100%;
+}
+
+.add-params-button {
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  border: none; /* Remove default border */
+  border-radius: 50%; /* Make button circular */
+  background-color: transparent; /* Transparent background */
+  display: flex; /* Center content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.add-params-button img {
+  width: 100%; /* Make image fill the button */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Ensure image is circular */
+}

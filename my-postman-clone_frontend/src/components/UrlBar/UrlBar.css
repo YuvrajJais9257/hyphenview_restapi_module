@@ -1,0 +1,34 @@
+.url-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .method-select {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .url-input {
+    flex-grow: 1;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+  }
+  
+  .postman-buttons {
+    background-color: #4caf50;
+    border-radius: 0.5rem !important;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .send-button{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
